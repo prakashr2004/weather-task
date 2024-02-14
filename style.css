@@ -1,0 +1,146 @@
+
+
+
+body{
+    background-color: rgb(15,84,116);
+    color: white;
+    background-image:url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-size: 70px;
+    font-family: "Nunito Sans", sans-serif;
+    margin: 30px;
+}
+.showdetiel{
+    display: flex;
+    gap: 120px;
+    font-size: 30px;
+  font-family: "Raleway", sans-serif;
+
+}
+
+.serchsesion{
+background-color:   rgb(176,208,32);
+width: 710px;
+text-align: justify;
+padding: 12px 15px;
+}
+#search{
+    width: 600px;
+    padding: 10px;
+    font-size:13px;
+}
+#search:focus{
+    outline: none;
+}
+.stant{
+    padding: 10px;
+  background-color: rgb(15,59,43);
+color: white;
+border: none;
+}
+.Find{
+    width: 400px;
+}
+#celis{
+   margin-left: 750px;
+   font-size: 50px;
+}
+.deecrition{
+margin-left: 450px;
+margin-top: 40px;
+}
+.byname{
+    text-align:center ;
+    margin-top: 30px;
+}
+
+.Find{
+    color:  rgb(15,59,43);
+    font-size: 30px;
+    height: 20px;
+    margin: 10px;
+}
+.named{
+    color:  rgb(176,208,32);
+}
+i{
+    font-size:140px;
+}
+
+
+/* temp icon */
+.fa-temperature-empty{
+    color: white;
+}
+
+/* rain icon */
+.fa-cloud-showers-water{     
+    color:white;
+}
+.rainbody{
+    background-image: url(rain.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* sun */
+.fa-cloud-sun{
+    color: rgb(218, 157, 91);
+
+}
+/* cloud */
+.fa-cloud{
+color: white;
+}
+
+.popshowfox{
+background-color: rgb(15,84,116) ;
+
+}
+.btnblue{
+    color:  rgb(15,84,116);
+}
+.sun{
+    background-color: rgb(218, 157, 91) ;
+    
+}
+.sun{
+
+    color:rgb(218, 157, 91)  ;
+    
+}
+.bodname{
+    color: rgb(15,59,43) ;
+}
+.sencolo{
+    color: black;
+    background-color: white;
+}
+
+
+.Ncol{
+color: rgb(15,59,43);
+}
+
+
+.fin{
+    color: white;
+    background-color: black;
+}
+
+.FineNAme{
+color: black;
+}
+.co{
+    color: white;
+}
+.BtN{
+    color: black;
+    background-color: white;
+}

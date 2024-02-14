@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">\
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Noto+Sans+JP:wght@200&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="maincondainer">
+        <div class="header">
+            <h1>Weather Forecast for Legos</h1>
+            <h1 ><i id="icon" class="fa-solid fa-temperature-empty"></i></h1>
+            <br><span id="celis"> celsius</span>
+        </div>
+        <div class="deecrition">
+            <div class="showdetiel">
+            <h3 id="time">Time</h3>
+            <h3 id="Humidity">Humidity</h3>
+            <h3 id="Speed">Wind Speed</h3>
+        </div>
+        <div class="serchsesion"  id="popshow">
+            <h3 class="Find" id="findName">Find a Forecast</h3><br>
+            <input type="text" placeholder="Search For location or keword"  id="search">
+            <input type="button" value="SEARCH" id="btn" class="stant ">
+        </div> 
+        </div>
+   </div>
+   <div  class="byname">
+    <p>Designed and Code By <span id="name" class="named namerain ">Prakash Ramachandran</span> </p>
+   </div>
+    <script src="weather.js"></script>
+</body>
+</html>
